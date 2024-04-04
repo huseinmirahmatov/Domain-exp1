@@ -2,8 +2,12 @@
 {
     internal class Album
     {
-        public string Title { get; }
-        public string Artist { get; }
-        public int ReleaseYear { get; }
+       public int Id { get; set; }
+
+        public string Name { get; }
+
+        public string Email { get; }
+
+        private string Password { get; }
     }
 }
